@@ -10,7 +10,7 @@ The repository considts of the Dockerfile which contains commands to build the i
   3) docker run -itd -p 80:8080 app
   4) Visit the browser where the appliocation is running at port 80
 <b>    
- http://PublicIP:8080/CounterWebApp/
+ PublicIP:8080/CounterWebApp/
 </b>
   
 
@@ -19,7 +19,7 @@ The repository considts of the Dockerfile which contains commands to build the i
 
 <b>maven commands </b>:  mvn clean install tomcat7:run <br>
 
-this command will create an artifact and also deploy with tomcat,<br> The pom.xml contains the tomcat plugins which is configured to port <b>9090</b>.<br>
+This command will create an artifact and also deploy with tomcat,<br> The pom.xml contains the tomcat plugins which is configured to port <b>9090</b>.<br>
 <b>
- http://PublicIP:9090/CounterWebApp/
+ PublicIP:9090/CounterWebApp/
 </b>
