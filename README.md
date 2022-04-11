@@ -15,11 +15,11 @@ The repository considts of the Dockerfile which contains commands to build the i
   
 
 
-<h2>We can deploy the applcation with maven installed on the machine</h2>
+<h2>We can deploy the applcation with maven installed on the machine</h2><br>
 
-<b>maven commands </b>:  mvn clean install tomcat7:run
+<b>maven commands </b>:  mvn clean install tomcat7:run <br>
 
-this command will create an artifact and also deploy with tomcat, The pom.xml contains the tomcat plugins which is configured to port <b>9090</b>.
+this command will create an artifact and also deploy with tomcat, The pom.xml contains the tomcat plugins which is configured to port <b>9090</b>.<br>
 <b>
  http://PublicIP:9090/CounterWebApp/
 </b>
