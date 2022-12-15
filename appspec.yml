@@ -3,8 +3,7 @@ os: linux
 files:
   - source: /pom.xml
     destination: /home/ubuntu/
-  - source: /
-    destination: /home/ubuntu/
+
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
