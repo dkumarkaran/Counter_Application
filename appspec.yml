@@ -1,8 +1,10 @@
 version: 0.0
 os: linux
 files:
-  - source: /index.html
-    destination: /var/www/html/
+  - source: /pom.xml
+    destination: /home/ubuntu/
+  - source: /
+    destination: /home/ubuntu/
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
