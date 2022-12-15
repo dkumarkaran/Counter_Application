@@ -1,3 +1,2 @@
 #!/bin/bash
-service httpd start
-
+mvn clean install tomcat7:run
