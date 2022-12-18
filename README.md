@@ -15,7 +15,7 @@ The repository considts of the Dockerfile which contains commands to build the i
   
 
 
-<h2>We can deploy the applcation with maven installed on the machine</h2><br>
+<h2>We can deploy the applcation with maven with the machine</h2><br>
 
 <b>maven commands </b>:  mvn clean install tomcat7:run <br>
 
